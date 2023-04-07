@@ -14,6 +14,6 @@ one_quantity = total_quantity // 6
 
 
 if total_quantity % 6 == 0:
-    print(f"Из всех {total_quantity} штук: Петя и Сережа сделали по {one_quantity} журавликов каждый, а Катя сделала {one_quantity*4} журавликов")
+    print(f"Из всех {total_quantity} штук: Петя и Сережа сделали по {one_quantity} журавликов каждый, а Катя сделала {one_quantity * 4} журавликов")
 else:
     print("По условию задачи дети не могли столько сделать.")
