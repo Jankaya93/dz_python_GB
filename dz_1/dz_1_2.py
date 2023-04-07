@@ -10,7 +10,7 @@
 """
 
 total_quantity = int(input("Введите сколько всего сделали журавликов дети: "))
-one_quantity = int(total_quantity/6)
+one_quantity = total_quantity // 6
 
 
 if total_quantity % 6 == 0:
