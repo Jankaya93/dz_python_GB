@@ -9,7 +9,7 @@
 size_n, size_m, quantity = int(input("Введите длинну шоколадки: ")), int(input(
     "Введите ширину шоколадки: ")), int(input("Введите желаемое количество долек: "))
 
-if quantity % size_n == 0 or quantity % size_m == 0:
+if size_m*size_n >= quantity and (quantity % size_n == 0 or quantity % size_m == 0):
     print("Да, так можно отломить.")
 else:
     print("Нет, так нельзя отломить.")
