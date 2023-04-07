@@ -10,7 +10,7 @@
 
 number = input("Введите номер вашего билета: ")
 
-if (len(number) == 6) & (int(number[0]) + int(number[1]) + int(number[2]) == int(number[3]) + int(number[4]) + int(number[5])):
+if len(number) == 6 and int(number[0]) + int(number[1]) + int(number[2]) == int(number[3]) + int(number[4]) + int(number[5]):
     print("Поздравляем! Ваш билет счастливый!")
 else:
     print("К сожалению, у вас не счастливый билет.")
