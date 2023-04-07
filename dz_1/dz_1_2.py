@@ -11,7 +11,7 @@
 
 total_quantity = int(input("Введите сколько всего сделали журавликов дети: "))
 one_quantity = int(total_quantity/6)
-# kate_quantity = man_quantity*4
+
 
 if total_quantity % 6 == 0:
     print(f"Из всех {total_quantity} штук: Петя и Сережа сделали по {one_quantity} журавликов каждый, а Катя сделала {one_quantity*4} журавликов")
