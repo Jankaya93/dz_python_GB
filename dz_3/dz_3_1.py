@@ -20,6 +20,6 @@ print(arr)
 
 total = 0
 for j in arr:
-    if arr[j] == x:
+    if j == x:
         total += 1
 print(total)
