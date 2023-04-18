@@ -15,4 +15,10 @@ for x in range(s):
     for y in range(p):
         if s == x + y and p == x * y:
             print(f'первое число = "{x}", второе число = "{y}"')
-            
+            break
+   
+    else:
+        continue
+    break
+else:
+    print("Решения с такими условиями не существует.")
