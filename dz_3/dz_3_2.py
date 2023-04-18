@@ -22,7 +22,7 @@ print(arr)
 
 
 for j in range(100):
-    for i in range(0,len(arr)):
+    for i in range(len(arr)):
         if arr[i] + j == x or arr[i] - j == x:
             print(arr[i])
             break
