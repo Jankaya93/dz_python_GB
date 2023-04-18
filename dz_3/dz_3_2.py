@@ -21,7 +21,7 @@ arr = [random.randint(-10, 10) for i in range(n)]
 print(arr)
 
 
-for j in range(0,100):
+for j in range(100):
     for i in range(0,len(arr)):
         if arr[i] + j == x or arr[i] - j == x:
             print(arr[i])
