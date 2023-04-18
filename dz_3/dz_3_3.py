@@ -31,8 +31,7 @@ dictionary = dict.fromkeys(liter_1, 1) | dict.fromkeys(liter_2, 2) | dict.fromke
 slovo = input("Введите слово: ").upper()
 total = 0
 
-for i in range(len(slovo)):
-    for j in dictionary:
-        if slovo[i] == j:
-            total += dictionary[j]
+for char in slovo:
+    if char in dictionary:
+        total += dictionary[char]
 print("Ваше слово набрало", total, "баллов")
