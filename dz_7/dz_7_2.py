@@ -16,5 +16,6 @@ def print_operation_table(operation, num_rows=6, num_columns=6):
         print(f"{row:2d} |", *map(lambda value: f"{value:4d}", row_values))
 
 
+
 multiply = lambda x, y: x * y
 print_operation_table(multiply)

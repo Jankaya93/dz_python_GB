@@ -9,6 +9,7 @@
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам 
 
+
 def ritm(texts):
     words = texts.split()
     count_glasnyi = lambda word: sum(1 for letter in word if letter.lower() in 'аеёиоуыэюя')
